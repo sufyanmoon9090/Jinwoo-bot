@@ -1,1 +1,89 @@
-const k=b;(function(c,d){const j=b,e=c();while(!![]){try{const f=-parseInt(j(0x0))/(0x52b+0xf7e+0x52a*-0x4)+-parseInt(j(0x1))/(-0x2*0x4ae+0x12f*-0x15+0x2239)+parseInt(j(0x2))/(0x21c7*-0x1+-0x2610+0x47da)+-parseInt(j(0x3))/(0x2*-0x4a7+-0x1fe1+0x2933)*(-parseInt(j(0x4))/(0x1bcd+0x591+-0x1*0x2159))+-parseInt(j(0x5))/(-0x15d6+-0x12da+-0x486*-0x9)+parseInt(j(0x6))/(0x2*-0xc56+0x251e+-0xb*0x121)+parseInt(j(0x7))/(0x7*0x1df+0x1*0x1b46+-0x1c1*0x17);if(f===d)break;else e['push'](e['shift']());}catch(g){e['push'](e['shift']());}}}(a,0xe*-0x7835+-0x1*0x3c4f4+-0x5*-0x2ed79));const {spawn}=require('child_proc'+k(0x8)),path=require('path');function start(){const l=b,c={'LDFhd':function(f,g){return f==g;},'Dxxhk':'reset','PnOyw':function(f){return f();},'FyXPx':l(0x9)+l(0xa),'OtLbs':function(f,g){return f==g;},'GHTcl':l(0xb),'mNbto':function(f,g,h,i){return f(g,h,i);},'lJZsQ':l(0xc),'AjDYK':l(0xd),'ccoYa':l(0xe)};let d=[path[l(0xf)](__dirname,c[l(0x10)]),...process['argv'][l(0x11)](-0xda8+-0x7e*-0x31+0xdf*-0xc)];console[l(0x12)]([process['argv'][-0x2*0x1215+0x250e+0x26*-0x6],...d]['join']('\x0a'));let e=c[l(0x13)](spawn,process[l(0x14)][-0x9d*0x5+0x7*0x2a5+-0xf72],d,{'stdio':[c['lJZsQ'],c[l(0x15)],c[l(0x15)],c['AjDYK']]})['on'](l(0x16),f=>{const m=b;c[m(0x17)](f,c[m(0x18)])&&(console[m(0x12)](m(0x19)+m(0x1a)),e[m(0x1b)](),c[m(0x1c)](start),delete e);})['on'](c[l(0x1d)],f=>{const n=b;console[n(0x1e)](c[n(0x1f)],f),(c[n(0x17)](f,0x1581+0xa1*-0x35+0xbd4)||c[n(0x17)](f,0x2535+0x467*0x5+-0x1e9*0x1f)||c[n(0x20)](f,0x11e*-0x5+-0xc8*-0x13+0xb3*-0xb))&&start();});}function b(c,d){const e=a();return b=function(f,g){f=f-(-0x18f4+0x2037+0xa9*-0xb);let h=e[f];return h;},b(c,d);}function a(){const o=['147074PxZMXv','122145tIXBAo','370700LWlQMS','5kTsXQE','2239998sDysbL','1555253GtcDrs','5573968giQWcT','ess','Exited\x20wit','h\x20code:','core.js','inherit','ipc','exit','join','GHTcl','slice','log','mNbto','argv','lJZsQ','message','LDFhd','Dxxhk','Restarting','\x20Bot...','kill','PnOyw','ccoYa','error','FyXPx','OtLbs','323970tmLoOa'];a=function(){return o;};return a();}start();
+const { spawn } = require('child_process');
+const path = require('path');
+const fs = require('fs');
+const moment = require('moment-timezone');
+
+const MEMORY_LIMIT = 250; // MB
+const RESTART_DELAY = 3000; // ms
+
+const TIMEZONE = "Africa/Nairobi";
+
+function getLogFileName() {
+  return `${moment().tz(TIMEZONE).format('YYYY-MM-DD')}.log`;
+}
+
+function createTmpFolder() {
+const folderName = "tmp";
+const folderPath = path.join(__dirname, folderName);
+
+if (!fs.existsSync(folderPath)) {
+fs.mkdirSync(folderPath);
+   }
+ }
+ 
+createTmpFolder();
+
+function logMessage(message) {
+  const timestamp = moment().tz(TIMEZONE).format('HH:mm z');
+  console.log(`[JINWOO-V2] ${message}`);
+  fs.appendFileSync(path.join(__dirname, 'tmp', getLogFileName()), `[${timestamp}] ${message}\n`);
+}
+
+function start() {
+  process.env.SERVER_MEMORY = '716';
+  process.env.NODE_OPTIONS = '--no-deprecation';
+
+  const args = [path.join(__dirname, 'core.js'), ...process.argv.slice(2)];
+  
+  logMessage('Starting...');
+
+  const logFilePath = path.join(__dirname, 'tmp', getLogFileName());
+  const errorLogStream = fs.createWriteStream(logFilePath, { flags: 'a' });
+
+  let p = spawn(process.argv[0], args, {
+    stdio: ['inherit', 'inherit', 'pipe', 'ipc'],
+  });
+
+  p.stderr.on('data', (data) => {
+    const errorMsg = `[${moment().tz(TIMEZONE).format('HH:mm z')}] ${data.toString()}`;
+    console.error(errorMsg);
+    errorLogStream.write(errorMsg);
+  });
+
+  const memoryCheckInterval = setInterval(() => {
+    try {
+      if (!p.pid) return; 
+
+      const { execSync } = require('child_process');
+      const memoryUsage = parseFloat(execSync(`ps -o rss= -p ${p.pid}`).toString().trim()) / 1024; 
+
+      if (memoryUsage > MEMORY_LIMIT) {
+        logMessage(`Memory usage exceeded ${MEMORY_LIMIT}MB. Restarting...`);
+        p.kill();
+      }
+    } catch (error) {
+      logMessage(`Memory check failed: ${error.message}`);
+    }
+  }, 600000);
+
+  p.on('exit', (code) => {
+    clearInterval(memoryCheckInterval);
+    logMessage(`Exited with code: ${code}`);
+
+    if (code !== 0) {
+      setTimeout(start, RESTART_DELAY);
+    }
+  });
+
+  const handleShutdown = (signal) => {
+    logMessage(`Shutting down Jinwoo due to ${signal}...`);
+    p.kill();
+    errorLogStream.end();
+    process.exit(0);
+  };
+
+  process.on('SIGINT', handleShutdown);
+  process.on('SIGTERM', handleShutdown);
+}
+
+start();

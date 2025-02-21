@@ -1,13 +1,12 @@
-/*project_name : JINWOO BOT
-@author : MALVIN KING
-@youtube : https://www.youtube.com/@malvintech2 
-@instagram : malvinking20
-@telegram : t.me/malvintech
-@github : kingmalvn 
-@tiktok : malvinquotes
-@whatsapp : +263714757857
+/*
+  project_name : jinwoo v2
+  Owner : Techlord
+  Clone if you can😪
+
+
 */
- 
+
+
 //=================================================//
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -16,10 +15,10 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //=================================================//
 global.SESSION_ID = process.env.SESSION_ID || '' 
-//Enter your Xploader session id here; must start with Jinwoo-Bot:~
+//Enter your JINWOO BOT session id here; must start with JIN~
 
 //=================================================//
-global.botname = process.env.BOT_NAME || 'ᎫᏆΝᏔϴϴ ᏴϴͲ' 
+global.botname = process.env.BOT_NAME || 'ᴊɪɴᴡᴏᴏ ʙᴏᴛ ᴠ2' 
 //Your desired bot name
 
 //=================================================//
@@ -27,47 +26,81 @@ global.ownernumber = process.env.OWNER_NUMBER || '263714757857'
 //Type your main number here
 
 //=================================================//
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263780934873', '263780166288'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263714757857', '263780166288'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Malvin' 
+global.ownername = process.env.OWNER_NAME || 'ᴍᴀʟᴠɪɴ ᴋɪɴɢ' 
 //Type your name here
 
 //=================================================//
-global.plink = process.env.PLINK || "https://www.instagram.com/techlord01?igsh=OHB3b3BqMjZpMjdy=="
+global.plink = process.env.PLINK || "https://www.youtube.com/@malvintech2"
 
 //=================================================//
-global.wm = process.env.GL_WM || "©ᎫᏆΝᏔϴϴ ᗷOT"
+global.wm = process.env.GL_WM || "©JINWOO"
 
 //=================================================//
-global.packname = process.env.STICKER_PACK_NAME || "ᎫᏆΝ" 
+global.packname = process.env.STICKER_PACK_NAME || "ᴊɪɴ ᴠ2" 
 //The sticker pack name
 
 //=================================================//
-global.author = process.env.STICKER_AUTHOR_NAME || "ᗷOT" 
+global.author = process.env.STICKER_AUTHOR_NAME || "ᴊɪɴ" 
 //The sticker author name
 
 //=================================================//
-global.prefixz = process.env.PREFIX || '.' 
+global.prefixz = process.env.BOT_PREFIX || '.'
 //Set your desired prefix
 
 //=================================================//
 global.mode = process.env.MODE || 'public';
-// Set to 'private' to enable private mode, otherwise default is 'public'
+// Set 'private' to enable private mode
+// Set 'public' to enable public mode
+// Set 'group' to enable only group
+// Set 'pm' to enable only private chats
 
 //=================================================//
-global.hituet = 0 
+global.statusemoji = process.env.STATUS_EMOJI || '🧡'
+//Enter the emoji that you wish to be reacted to statuses 
+
 //=================================================//
 global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
+// set true to enable and false to disable auto status view
 
 //=================================================//
+global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
+// set true to enable and false to disable auto status react
+
+//=================================================//
+global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
+//Set true to make the bot online 24/7 or set false to disable always online
+
+
+//=================================================//
+global.chatbot = process.env.CHATBOT || 'false'
+// set true to enable and false to disable auto ai chatbot
+
+//=================================================//
+global.antidelete = process.env.ANTIDELETE || 'private'
+// options:- 'private', 'chat' or 'off'
+// private = Sends to message yourself 
+// chat = sends to the current chat 
+// off = Disables detection of deleted messages
+
+//=================================================//
+global.antiedit = process.env.ANTI_EDIT || 'private'
+// options:- 'private', 'chat' or 'off'
+// private = Sends to message yourself 
+// chat = sends to the current chat 
+// off = Disables detection of edited messages
+
 //=================================================//
 global.anticall = process.env.ANTI_CALL || 'false'
+// set true to enable and false to disable auto blocking of callers
 
 //=================================================//
 global.welcome = process.env.WELCOME_MSG || 'false'
+// set true to enable and false to disable welcoming and left messages to groups upon joining or leaving groups
 
 //=================================================//
 global.timezones = process.env.TIMEZONE || "Africa/Nairobi" 
@@ -89,11 +122,9 @@ global.menustyle = process.env.MENU_STYLE || '2'
 //=================================================//
 //Replies
 global.mess = { 
-  limit: '*Your limit is used up!*', 
   done: '*Done*', 
-  error: '*Sorry, I cannot perform that action!*', 
-  success: '*©ᎫᏆΝᏔϴϴ*', 
-  owner: '*Apologies, only my owner can use this command!*', 
+  success: '> ©JINWOO', 
+  owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
   notadmin: '*This feature will work once you become an admin. A way of ensuring order!*' 

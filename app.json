@@ -1,22 +1,23 @@
 {
-  "name": "JINWOO-BOT",
-  "version": "1.0.0",
-  "description": "JINWOO, the best WhatsApp Bot",
-  "logo": "https://files.catbox.moe/ktd1l4.jpg",
+  "name": "ᴊɪɴᴡᴏᴏ-ᴠ2",
+  "version": "1.2.5",
+  "description": "Jinwoo v2, the best WhatsApp Bot",
+  "logo": "https://i.ibb.co/Q4QCHYd/copilot-image-1739572393172.jpg",
   "keywords": ["whatsapp", "bot", "md"],
   "repository": "https://github.com/kingmalvn/JINWOO-BOT",
+  "stack": "container",
   "scripts": {
     "start": "node index.js"
   },
   "env": {
     "SESSION_ID": {
-      "description": "Enter your JINWOO session id here; must start with Jinwoo-Bot:~",
+      "description": "Enter your Jin bot session id here; must start with JIN~",
       "value": "",
       "required": false
     },
     "BOT_NAME": {
       "description": "Enter your bot name here",
-      "value": "ᎫᏆΝᏔϴϴ ᏴϴͲ",
+      "value": "ᴊɪɴᴡᴏᴏ-ᴠ2",
       "required": false
     },
     "OWNER_NUMBER": {
@@ -26,17 +27,17 @@
     },
     "OWNER_NAME": {
       "description": "Enter your name here",
-      "value": "ᗰalvin",
+      "value": "ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
       "required": true
     },
     "STICKER_PACK_NAME": {
       "description": "Sticker pack name",
-      "value": "JIN",
+      "value": "ᴊɪɴ ᴠ2",
       "required": false
     },
     "STICKER_AUTHOR_NAME": {
       "description": "Sticker author name",
-      "value": "ᗷOT",
+      "value": "ᴊɪɴᴡᴏᴏ",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -49,19 +50,49 @@
       "value": "",
       "required": false
     },
-    "PREFIX": {
+    "BOT_PREFIX": {
       "description": "Enter your desired prefix here",
       "value": ".",
       "required": true
     },
     "MODE": {
-      "description": "Set to 'private' to enable private mode, otherwise default is 'public'",
+      "description": "Set 'private' to enable private mode, 'public' to enable public mode, 'group' to enable only group and 'pm' to enable only private chats",
       "value": "public",
       "required": false
+    },
+    "ANTIDELETE": {
+      "description": "Set 'private' to send deleted messages to message yourself, 'chat' to current chat and 'off' to disable'",
+      "value": "private",
+      "required": false
+    },
+     "ANTI_EDIT": {
+      "description": "Set 'private' to send edited messages to message yourself, 'chat' to current chat and 'off' to disable'",
+      "value": "private",
+      "required": false
+    },
+    "ALWAYS_ONLINE": {
+      "description": "Set true to make the bot online 24/7 or set false to disable always online'",
+      "value": "true",
+      "required": true
     },
     "AUTO_STATUS_VIEW": {
       "description": "Set true to enable and false to disable auto status view",
       "value": "true",
+      "required": false
+    },
+    "AUTO_STATUS_REACT": {
+      "description": "Set true to enable and false to disable auto status react",
+      "value": "false",
+      "required": false
+    },
+    "STATUS_EMOJI": {
+      "description": "Set your desired status reaction emoji",
+      "value": "🧡",
+      "required": false
+    },
+    "CHATBOT": {
+      "description": "Set true to enable and false to disable auto reply chatbot",
+      "value": "false",
       "required": false
     },
     "ANTI_CALL": {
@@ -81,7 +112,7 @@
     },
     "SUDO": {
       "description": " Type additional allowed users here. They'll be able to use all the functions of the bot without restrictions. Separate with comma incase of more than one number.",
-      "value": "263714757857,263780166288",
+      "value": "263714757857,263780166288,263780934873",
       "required": false
     },
     "AUTO_READ": {
@@ -95,9 +126,12 @@
       "required": false
     }
   },
-  "buildpacks": [
+    "buildpacks": [
     {
       "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
     },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
@@ -107,3 +141,4 @@
     }
   ]
 }
+
