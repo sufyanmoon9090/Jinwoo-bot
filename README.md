@@ -1,19 +1,9 @@
 
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=3F00FF&center=true&width=900&height=100&lines=𝐍𝐄𝐗𝐔𝐒%20-𝐗𝐌𝐃;%20𝗠𝗨𝗟𝗧𝗜-𝗗𝗘𝗩𝗜𝗖𝗘%20𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣%20𝗕𝗢𝗧;%20𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗%20𝗕𝗬%20𝐌𝐀𝐋𝐕𝐈𝐍%20𝐊𝐈𝐍𝐆..💖)
-<p align="center">
+<img align="center" height="auto"
+src="https://i.ibb.co/ZpwXnDm3/temp-image.jpg?">
 
-</p>
-
-
-<div align="center"> 
-  <a href="https://youtube.com/@malvintech2"> 
-    <img src="https://files.catbox.moe/ex1627.jpg" alt="JINWOO BOT" height="200"> 
-  </a> 
-</div>
-  </a>
-
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=J+I+N+W+O+O+▇)](https://git.io/typing-svg)
 <br>
 
    </p>
