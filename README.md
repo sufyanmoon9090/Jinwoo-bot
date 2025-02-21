@@ -25,7 +25,7 @@ src="https://i.ibb.co/ZpwXnDm3/temp-image.jpg?">
   <img src="https://komarev.com/ghpvc/?username=JINWOO-BOT&label=VIEWS&style=flat-square&color=blue" />
 </a>
 <p align="center">
-  <a href="https://github.com/kingmalvn/JINWOO-BOT"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v3.0-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
+  <a href="https://github.com/kingmalvn/JINWOO-BOT"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v2.0-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
 
 <p align='center'>
     </p>
@@ -46,7 +46,7 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 2. GET SESSION
     <br>
     <p align="left">
-<a href='https://jinwoo-pair-7a2966e4757b.herokuapp.com/pair' target="_blank"><img alt='REQUEST PAIR CODE' src='https://img.shields.io/badge/Pair_code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=darkorange'/></a>
+<a href='https://jinwoo-par-7a2966e4757b.herokuapp.com/pair' target="_blank"><img alt='REQUEST PAIR CODE' src='https://img.shields.io/badge/Pair_code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=darkorange'/></a>
 
 3. GET CREDS.JSON FILE
 
