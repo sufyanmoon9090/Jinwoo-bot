@@ -8,7 +8,7 @@ src="https://i.ibb.co/ZpwXnDm3/temp-image.jpg?">
 
    </p>
 <p align="center">
-<a href="https://github.com/kingmalvn"><img title="Author" src="https://img.shields.io/badge/Malvin King-blue?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@malvintech2"><img title="Author" src="https://img.shields.io/badge/YT CHANNEL-darkred?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/263714757857"><img title="Author" src="https://img.shields.io/badge/Contact Me-darkgreen?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/kingmalvn"><img title="Author" src="https://img.shields.io/badge/Malvin King-blue?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@malvintech2"><img title="Author" src="https://img.shields.io/badge/YT CHANNEL-darkred?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/263780934873"><img title="Author" src="https://img.shields.io/badge/Contact Me-darkgreen?style=for-the-badge&logo=whatsapp"></a>
 <p/> 
 
  <p align="center">
@@ -41,12 +41,14 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 
   <br>
     <p align="left">
-<a href='https://github.com/kingmalvn/JINWOO-BOT/fork' target="_blank"><img alt='Fork Repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=orange&color=darkgreen'/></a>
+  <a href="https://github.com/kingmalvn/JINWOO-BOT/fork"><img title="JINWOO-V2" src="https://img.shields.io/badge/FORK-JINWOO-V2h?color=darkblue&style=for-the-badge&logo=stackshare"></a>
 
 2. GET SESSION
     <br>
     <p align="left">
-<a href='https://jin-pair-b741aac7200e.herokuapp.com/' target="_blank"><img alt='REQUEST PAIR CODE' src='https://img.shields.io/badge/Pair_code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=darkorange'/></a>
+<a href='https://jin-pair-b741aac7200e.herokuapp.com/' target="_blank"><img alt='REQUEST PAIR CODE' src='https://img.shields.io/badge/Pair_code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=blue'/></a>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 3. GET CREDS.JSON FILE
 
@@ -57,16 +59,19 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 </div>
 
 ### After getting creds.json file, upload it to session folder
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ## `DEPLOYMENTS`
   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fkingmalvn%2FMALVIN-XD) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fkingmalvn%2FJINWOO-BOT) 
 
 💯 safe
-    
+    <a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
 
 [![Deploy on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://repl.it/github/kingmalvn/JINWOO-BOT)
 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 <p align="left">
     <a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com%2Fkingmalvn%2FJINWOO-BOT&branch=main&name=JINWOO-BOT&builder=dockerfile&env[DATABASE_URL]=&env[SESSION_ID]=Enter+your+session+id+here&env[AUTO_STATUS_SEEN]=true&env=[AUTO_REACT_STATUS]=true&env[OWNER_NUMBER]=Enter+your+number&env[OWNER_NAME]=Enter+your+name&env[TIMEZONE]=Africa/Nairobi">
@@ -74,6 +79,7 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
     </a>
 </p>
 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 
 <details>
@@ -94,6 +100,7 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 * Press deploy and wait for a few minutes.
 * Enjoy.
 </details>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 <details>
 <summary>𝘔𝘖𝘙𝘌 𝘋𝘌𝘗𝘓𝘖𝘠𝘔𝘌𝘕𝘛𝘚</summary>
@@ -117,6 +124,7 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 
 </details>
 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 <details>
 <summary>𝘏𝘖𝘞 𝘛𝘖 𝘋𝘌𝘗𝘓𝘖𝘠 𝘖𝘕 𝘗𝘈𝘕𝘌𝘓𝘚</summary>
@@ -134,6 +142,7 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 11. Deployment successful.
 </details>
  
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 <details>
 <summary>𝘔𝘈𝘕𝘜𝘈𝘓 𝘐𝘕𝘚𝘛𝘈𝘓𝘓𝘔𝘌𝘕𝘛𝘚</summary>
@@ -144,13 +153,15 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 * [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
 * [Libwebp](https://developers.google.com/speed/webp/download)
 * Any text editor
-  
+  <a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
 ## `CLONE REPO & INSTALLATION DEPENDENCIES`
 ```bash
 git clone https://github.com/<your gitHub Username>/JINWOO-BOT.git
 cd JINWOO-BOT
 npm start
 ```
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ## `FOR SSH/UBUNTU/LINUX`
 ```bash
@@ -168,6 +179,7 @@ cd JINWOO-BOT
 npm install
 npm start
 ```
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ## `FOR TERMUX`
 ```bash
@@ -177,11 +189,13 @@ cd bot folder name
 yarn install
 npm start
 ```
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ## `FOR 24/7 ACTIVATION PM2 (TERMUX)`
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ## `FOR 24/7 ACTIVATION RE-EXECUTION PM2 (TERMUX)`
 ```bash
@@ -189,15 +203,18 @@ npm i -g pm2 && pm2 start index.js -f && pm2 save && pm2 logs
 ```
 </details>
 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 </p>
 
 ##
 * Need help? please create an <a href="https://github.com/kingmalvn/JINWOO-BOT/issues">issue</a></p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ##
 - Star ⭐ this repository if you like Jinwoo Bot.
 - If any problem, then [`Whatsapp Me Here`](https://wa.me/263714757857)
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ##
 <h2 align="center">  𝗣𝗢𝗟𝗜𝗧𝗘 𝗡𝗢𝗧𝗜𝗖𝗘!
@@ -206,11 +223,16 @@ npm i -g pm2 && pm2 start index.js -f && pm2 save && pm2 logs
 - *`JINWOO BOT` is not affiliated with `WhatsApp Inc`.*
 - *Misusing the bot may result in account banning.*
 - *Use at your own risk.*
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ##
  [ JINWOO WHATSAPP CHANNEL ](https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z)
 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 **© Jinwoo Bot**
 ##
 ![MIT License](https://img.shields.io/badge/License-green.svg)
+
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
