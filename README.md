@@ -43,6 +43,8 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
     <p align="left">
   <a href="https://github.com/kingmalvn/JINWOO-BOT/fork"><img title="JINWOO-V2" src="https://img.shields.io/badge/FORK-JINWOO-V2h?color=darkblue&style=for-the-badge&logo=stackshare"></a>
 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
 2. GET SESSION
     <br>
     <p align="left">
@@ -213,7 +215,7 @@ npm i -g pm2 && pm2 start index.js -f && pm2 save && pm2 logs
 
 ##
 - Star ⭐ this repository if you like Jinwoo Bot.
-- If any problem, then [`Whatsapp Me Here`](https://wa.me/263714757857)
+- If any problem, then [`Whatsapp Me Here`](https://wa.me/263780934873)
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ##
