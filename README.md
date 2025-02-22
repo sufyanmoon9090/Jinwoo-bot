@@ -46,7 +46,7 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 2. GET SESSION
     <br>
     <p align="left">
-<a href='https://jinwoo-par-7a2966e4757b.herokuapp.com/pair' target="_blank"><img alt='REQUEST PAIR CODE' src='https://img.shields.io/badge/Pair_code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=darkorange'/></a>
+<a href='https://jin-pair-b741aac7200e.herokuapp.com/' target="_blank"><img alt='REQUEST PAIR CODE' src='https://img.shields.io/badge/Pair_code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=darkorange'/></a>
 
 3. GET CREDS.JSON FILE
 
@@ -60,7 +60,7 @@ Click the button below to fork the JIN Bot repository to your GitHub account:
 
 ## `DEPLOYMENTS`
   
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kingmalvn/JINWOO-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fkingmalvn%2FMALVIN-XD) 
 
 💯 safe
     
