@@ -1,31 +1,144 @@
 
 
+<img align="center" height="360"
+src="https://files.catbox.moe/bqs70b.jpg?">
 
-## `SETUP`
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=J+I+N+W+O+O+▇)](https://git.io/typing-svg)
+<br>
 
+   </p>
 <p align="center">
-  <a href='https://github.com/kingmalvn/Jinwoo-bot/fork' target="_blank" style="margin-right: 10px;">
-    <img alt='Fork Repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=orange&color=darkgreen'/>
-  </a>
-  <a href='https://malvin-pair-code-xzcb.onrender.com/' target="_blank">
-    <img alt='REQUEST PAIR CODE' src='https://img.shields.io/badge/Pair_code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=darkorange'/>
+<a href="https://github.com/kingmalvn"><img title="Author" src="https://img.shields.io/badge/Malvin King-blue?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@malvintech2"><img title="Author" src="https://img.shields.io/badge/YT CHANNEL-darkred?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/263780934873"><img title="Author" src="https://img.shields.io/badge/Contact Me-darkgreen?style=for-the-badge&logo=whatsapp"></a>
+<p/> 
+
+ <p align="center">
+<a href="https://github.com/kingmalvn/followers"><img title="Followers" src="https://img.shields.io/github/followers/kingmalvn?color=purple&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/JINWOO-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/kingmalvn/JINWOO-BOT?color=blue&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/JINWOO-BOT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/kingmalvn/JINWOO-BOT?color=blue&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/JINWOO-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kingmalvn/JINWOO-BOT?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/kingmalvn/JINWOO-BOT/"><img title="Size" src="https://img.shields.io/github/repo-size/kingmalvn/JINWOO-BOT?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkingmalvn%2FJINWOO-BOT&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/kingmalvn/JINWOO-BOT/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;</a>
+<p align="center"><img src="https://profile-counter.glitch.me/{JINWOO-BOT}/count.svg" alt="kingmalvn :: Visitor's Count" old_src="https://profile-counter.glitch.me/{kingmalvn}/count.svg" /></p>
+<p align="center">
+<a href="https://github.com/kingmalvn/JINWOO"BOT"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=JINWOO-BOT&label=VIEWS&style=flat-square&color=blue" />
+</a>
+<p align="center">
+  <a href="https://github.com/kingmalvn/JINWOO-BOT"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v2.0-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
+
+<p align='center'>
+    </p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+## 🛠️ `JINBOT INSTALATION`
+
+
+
+1. Fork and star this repo first
+
+Click the button below to fork the JIN Bot repository to your GitHub account:
+
+  <br>
+    <p align="left">
+  <a href="https://github.com/kingmalvn/Jinwoo-bot/fork"><img title="JINWOO-V2" src="https://img.shields.io/badge/FORK-JINWOO-V2h?color=darkblue&style=for-the-badge&logo=stackshare"></a>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+🔑 Get Session ID (WhatsApp Pair Code Login)
+
+> To deploy on Heroku , generate your session ID from the link below:
+<p align="left">
+  <a href="https://malvin-pair-code-xzcb.onrender.com/?">
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
   </a>
 </p>
-
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 ## `DEPLOYMENTS`
+  
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fkingmalvn%2FJINWOO-BOT) 
 
-  <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/kingmalvn/Jinwoo-bot" target="_blank" style="margin-right: 10px;">
-    <img alt="Deploy" src="https://www.herokucdn.com/deploy/button.svg"/>
+💯 safe
+    <a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+
+[![Deploy on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://repl.it/github/kingmalvn/JINWOO-BOT)
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+
+<details>
+<summary>𝘋𝘌𝘗𝘓𝘖𝘠 𝘛𝘖 𝘏𝘌𝘙𝘖𝘒𝘜, 𝘔𝘌𝘛𝘏𝘖𝘋 2</summary>
+ 
+* `Fork` JINWOO Repository or `sync` if you had forked.
+* `Link` to your WhatsApp using Server 1, 2 or 3
+* Incase you use Server 2, paste the session id on settings.js @SESSION_ID
+* If you used Server 3, upload the `creds.json` received in the `session` folder.
+* Alternatively; you can open the `creds.json` using `Mt manager` or `treb edit` and copy everything and paste at `creds.json` on the `session` folder.
+* Go to `src>data>role>owner.json` and enter your number.
+* Edit your details at `settings.js` (Optional).
+* Create an `heroku` account if you don't have.
+* Then choose create new app
+* Enter your app name and Create.
+* Connect with your GitHub account.
+* Search JINWOO-BOT, and connect.
+* Press deploy and wait for a few minutes.
+* Enjoy.
+</details>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+<details>
+<summary>𝘔𝘖𝘙𝘌 𝘋𝘌𝘗𝘓𝘖𝘠𝘔𝘌𝘕𝘛𝘚</summary>
+ 
+ **• 2 𝗛𝗢𝗦𝗧 𝗢𝗡 𝗗𝗜𝗦𝗖𝗢𝗥𝗗 /PANEL**
+<br>
+> Click below to download the bot file :
+<p align="left">
+<a href="https://github.com/kingmalvn/Jinwoo-bot/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20FILES-green" alt="Rainhost Files" width="150"></a>
+<br>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+  
+> Click below to deploy on Katabump :
+<p align="left">
+  <a href="https://dashboard.katabump.com/auth/login#203630">
+    <img src="https://img.shields.io/badge/Deploy%20to%20Katabump-Hosting-6962a6?style=for-the-badge&logo=katabump&logoColor=red"/>
   </a>
-  <a href="https://repl.it/github/kingmalvn/Jinwoo-bot" target="_blank">
-    <img alt="Deploy on Repl.it" src="https://repl.it/badge/github/quiec/whatsAlfa"/>
+<br>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+  
+> Click below to deploy on Bot-Hosting :
+<p align="left">
+  <a href="https://bot-hosting.net/?aff=1231885228566646795">
+    <img src="https://img.shields.io/badge/Deploy%20to%20Bot-hosting-9772a6?style=for-the-badge&logo=bothosting&logoColor=white"/>
   </a>
 </p>
-<p align="center">
-  💯 safe
-</p>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+ </a>
+
+</details>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+<details>
+<summary>𝘏𝘖𝘞 𝘛𝘖 𝘋𝘌𝘗𝘓𝘖𝘠 𝘖𝘕 𝘗𝘈𝘕𝘌𝘓𝘚</summary>
+ 
+1. `Fork` the Repository.
+2. If already forked then `sync` fork repository.
+3. Click on the green `Code` button and click `download as zip`.
+4. `Upload` the script zip file to your `panel`.
+5. `Unarchieve` the uploaded zip file.
+6. Open the `unarchieved folder` and `move` all files to container by typing (`../`)
+7. Now go to `console` and `start` bot.
+8. Wait for `5-10 mins` to enter your number.
+9. Enter your number when requested to get the pair code.
+10. Enter pair code in link devices in whatsapp.
+11. Deployment successful.
+</details>
+ 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 <details>
 <summary>𝘔𝘈𝘕𝘜𝘈𝘓 𝘐𝘕𝘚𝘛𝘈𝘓𝘓𝘔𝘌𝘕𝘛𝘚</summary>
@@ -86,3 +199,10 @@ npm i -g pm2 && pm2 start index.js -f && pm2 save && pm2 logs
 </h2>
 
 - This bot is made for educational purposes `only` hence `DO NOT MISUSE`.
+
+**© Jinwoo Bot**
+##
+![MIT License](https://img.shields.io/badge/License-green.svg)
+
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
